@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Gemini API Key
-const GEMINI_API_KEY = 'AIzaSyCOqzcsmUkWjRFo1HyeKQB5ECgkNn5BQUM'; // अपना API Key यहां डालें
+const GEMINI_API_KEY = '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'; // अपना API Key यहां डालें
 
 // Generate Image Route
 app.post('/generate-image', async (req, res) => {

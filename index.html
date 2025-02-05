@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI इमेज जनरेटर</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AI Image Generator</title>
 </head>
 <body>
-    <div class="container">
-        <h1>AI इमेज जनरेटर</h1>
-        <input type="text" id="prompt" placeholder="इमेज के लिए टेक्स्ट डालें (उदाहरण: एक सुंदर पर्वत)...">
-        <button onclick="generateImage()">इमेज बनाएं</button>
-        <div id="image-container">
-            <!-- यहां जनरेट की गई इमेज दिखेगी -->
-        </div>
-    </div>
+    <h1>AI Image Generator</h1>
+    <input type="text" id="prompt" placeholder="Enter your prompt" />
+    <button onclick="generateImage()">Generate Image</button>
+    <div id="image-container"></div>
+
     <script src="script.js"></script>
 </body>
 </html>

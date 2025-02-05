@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // OpenAI API Key (इसे .env फाइल में रखें)
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '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';
 
 // API Endpoint
 app.post('/generate-image', async (req, res) => {

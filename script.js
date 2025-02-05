@@ -4,7 +4,7 @@ async function generateImage() {
     const imageContainer = document.getElementById('image-container');
 
     // API Key और Endpoint (यहां आपको अपना API Key डालना होगा)
-    const apiKey = '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'; // OpenAI या किसी अन्य AI API का API Key
+    const apiKey = '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'; // OpenAI या किसी अन्य AI API का API Key
     const apiUrl = 'https://api.openai.com/v1/images/generations'; // OpenAI DALL-E Endpoint
 
     // API को डेटा भेजें
